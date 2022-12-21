@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta sans";
+    font-size: 16px;
+    line-height: 28px;
+    color: #83869A;
+
+}
+
+h1,
+h3 {
+    color: #13183F;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 1.43rem;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F74780;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    color: white;
+    padding: 14px 32px;
+    border-radius: 28px;
+    font-size: 1.125rem;
+    text-decoration: none;
+    width: 167px;
+    text-align: center;
+    /* height: 64px; */
+
+}
+
+.btn1 {
+    background-color: #13183F;
+}
+
+.btn2 {
+    background: linear-gradient(#F02AA6, #FF6F48);
+}
+
+.btn3 {
+    background: linear-gradient(#4851FF, #F02AA6);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 1fr;
+    /* grid-template-areas:
+        "top top img"
+        "main img img"; */
+
+
+}
+
+.header-top {
+    grid-column: 1/3;
+}
+
+.header-main {
+    grid-column: 1/2;
+}
+
+.header-img {
+    grid-column: 2/4;
+    grid-row: 1/3;
+    content: url(assets/image-hero-desktop.png);
+}
